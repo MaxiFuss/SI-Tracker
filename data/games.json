@@ -1,65 +1,140 @@
 [
   {
+    "adversary": "Brandenburg-Prussia",
     "players": [
       {
         "name": "Spieler 1",
-        "spirit": "Lightning's Swift Strike"
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
       },
       {
         "name": "Spieler 2",
-        "spirit": "Lightning's Swift Strike"
+        "spirit": "River Surges in Sunlight",
+        "aspect": "Immense"
       }
     ],
-    "timestamp": "2026-03-25 18:47:17.352247"
-  },
-  {
-    "players": [
-      {
-        "name": "Spieler 1",
-        "spirit": "Stone's Unyielding Defiance"
-      }
-    ],
-    "timestamp": "2026-03-26 10:06:20.287192"
-  },
-  {
-    "players": [
-      {
-        "name": "Spieler 1",
-        "spirit": "Lightning's Swift Strike"
-      },
-      {
-        "name": "Spieler 2",
-        "spirit": "Lightning's Swift Strike"
-      }
-    ],
-    "adversarie": "Brandenburg-Prussia",
-    "timestamp": "2026-03-26 10:09:20.116769"
-  },
-  {
-    "players": [
-      {
-        "name": "Spieler 1",
-        "spirit": "Lightning's Swift Strike"
-      },
-      {
-        "name": "Spieler 2",
-        "spirit": "Lightning's Swift Strike"
-      }
-    ],
-    "adversarie": "Brandenburg-Prussia",
-    "timestamp": "2026-03-26 10:10:50.895382"
+    "timestamp": "2026-03-26T12:12:31.426850"
   },
   {
     "adversary": "Brandenburg-Prussia",
     "players": [
       {
         "name": "Spieler 1",
-        "spirit": "Lightning's Swift Strike"
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
       },
       {
         "name": "Spieler 2",
-        "spirit": "Lightning's Swift Strike"
+        "spirit": "River Surges in Sunlight"
       }
-    ]
+    ],
+    "timestamp": "2026-03-26T12:20:23.139772"
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "River Surges in Sunlight"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Pandemonium"
+      }
+    ],
+    "timestamp": "2026-03-26T12:20:51.717685"
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Shadows Flicker Like Flame",
+        "aspect": "Madness"
+      }
+    ],
+    "timestamp": "2026-03-26T12:21:03.868916"
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "River Surges in Sunlight"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Shadows Flicker Like Flame",
+        "aspect": "Reach"
+      }
+    ],
+    "timestamp": "2026-03-26T12:21:13.639482"
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "won": true,
+    "blight_card_flipped": true,
+    "invader_cards_left": 1,
+    "dahan": 2,
+    "blight": 3,
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      }
+    ],
+    "timestamp": "2026-03-26T12:40:34.889906"
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "adversary_level": 3,
+    "won": true,
+    "blight_card_flipped": true,
+    "invader_cards_left": 5,
+    "dahan": 1,
+    "blight": 0,
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      }
+    ],
+    "timestamp": "2026-03-26T12:44:46.707713"
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "adversary_level": 6,
+    "won": true,
+    "blight_card_flipped": true,
+    "invader_cards_left": 3,
+    "dahan": 5,
+    "blight": 13,
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      }
+    ],
+    "timestamp": "2026-03-26T12:49:13.304331",
+    "score": 42
   }
 ]
