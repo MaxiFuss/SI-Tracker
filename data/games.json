@@ -1,0 +1,65 @@
+[
+  {
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike"
+      }
+    ],
+    "timestamp": "2026-03-25 18:47:17.352247"
+  },
+  {
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Stone's Unyielding Defiance"
+      }
+    ],
+    "timestamp": "2026-03-26 10:06:20.287192"
+  },
+  {
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike"
+      }
+    ],
+    "adversarie": "Brandenburg-Prussia",
+    "timestamp": "2026-03-26 10:09:20.116769"
+  },
+  {
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike"
+      }
+    ],
+    "adversarie": "Brandenburg-Prussia",
+    "timestamp": "2026-03-26 10:10:50.895382"
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike"
+      }
+    ]
+  }
+]
