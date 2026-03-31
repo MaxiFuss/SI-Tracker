@@ -73,6 +73,16 @@ def input_ui():
             ),
         ),
         ui.layout_columns(
+            ui.input_checkbox(
+                "use_support_adversary",
+                "Supporting Adversary aktivieren?"
+            ),
+
+            
+            ui.output_ui("support_adversary_ui"),
+        ),
+
+        ui.layout_columns(
 
             ui.input_checkbox("won", "Gewonnen?"),
 
@@ -202,7 +212,31 @@ def input_server(input, output, session):
                 )
 
         make_aspect_ui(i)
-    
+    @output
+    @render.ui
+    def support_adversary_ui():
+
+        if not input.use_support_adversary():
+            return None
+
+        return ui.layout_columns(
+
+            ui.input_select(
+                "support_adversary",
+                "Supporting Adversary:",
+                choices=ADVERSARIES
+            ),
+            ui.input_slider(
+                "support_adversary_level",
+                "Support Level:",
+                min=1,
+                max=6,
+                value=6,
+                ticks=True
+            ),
+        )
+
+
     # -------------------
     # Ergebnis sammeln
     # -------------------
@@ -241,6 +275,12 @@ def input_server(input, output, session):
             "players": players,
             "timestamp": datetime.datetime.now().isoformat()
         }
+
+        if input.use_support_adversary():
+            game_data["support_adversary"] = input.support_adversary()
+            game_data["support_adversary_level"] = input.support_adversary_level()
+
+
         game_data["score"] = calculate_score(game_data)
         save_game(game_data)
         data_store.set(game_data)
@@ -256,8 +296,9 @@ def input_server(input, output, session):
         if not data:
             return "Noch keine Daten."
 
-        text = f"Adversary: {data['adversary']}\n"
-        text += f"Level: {data['adversary_level']}\n"
+        text = f"Adversary: {data['adversary']}(Level: {data['adversary_level']})\n"
+        if data.get("support_adversary"):
+            text += f"Support: {data['support_adversary']} (Level: {data['support_adversary_level']})\n"
         text += f"Gewonnen: {'Ja' if data['won'] else 'Nein'}\n"
         text += f"Ödnis-Karte umgedreht: {'Ja' if data['blight_card_flipped'] else 'Nein'}\n"
         text += f"Invasorenkarten übrig: {data['invader_cards_left']}\n"

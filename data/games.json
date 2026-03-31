@@ -136,5 +136,78 @@
     ],
     "timestamp": "2026-03-26T12:49:13.304331",
     "score": 42
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "adversary_level": 6,
+    "won": false,
+    "blight_card_flipped": false,
+    "invader_cards_left": 0,
+    "dahan": 0,
+    "blight": 0,
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      }
+    ],
+    "timestamp": "2026-03-31T16:25:26.728589",
+    "support_adversary": "France",
+    "support_adversary_level": 6,
+    "score": 12
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "adversary_level": 6,
+    "won": false,
+    "blight_card_flipped": false,
+    "invader_cards_left": 0,
+    "dahan": 0,
+    "blight": 0,
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      }
+    ],
+    "timestamp": "2026-03-31T16:29:13.813338",
+    "support_adversary": "Sweden",
+    "support_adversary_level": 6,
+    "score": 12
+  },
+  {
+    "adversary": "Brandenburg-Prussia",
+    "adversary_level": 6,
+    "won": false,
+    "blight_card_flipped": false,
+    "invader_cards_left": 0,
+    "dahan": 0,
+    "blight": 0,
+    "players": [
+      {
+        "name": "Spieler 1",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      },
+      {
+        "name": "Spieler 2",
+        "spirit": "Lightning's Swift Strike",
+        "aspect": "Immense"
+      }
+    ],
+    "timestamp": "2026-03-31T16:29:19.393757",
+    "score": 12
   }
 ]
